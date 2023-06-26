@@ -1,0 +1,65 @@
+.education{
+    padding: 5% 0%;
+    background-image: url("https://bowwe.com/upload/domain/12538/images/education-decor.webp?460693.59999990463");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .education-datas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .education-1-container,.education-2-container,.education-3-container{
+    min-width: 60%;
+    display: flex;
+  }
+  .education-1-container,.education-3-container{
+    justify-content: flex-start;
+  }
+  .education-3-container{
+    margin-bottom: 5%;
+  }
+  .education-2-container{
+    justify-content: flex-end;
+  }
+  .education-1,.education-2,.education-3{
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:0;
+  }  .education-1,.education-3{
+    animation: educationLeft;
+    animation-duration: 5s;
+  }
+  @keyframes educationLeft{
+    from{
+      transform: translateX(-200%);
+    }
+  }
+  .education-2{
+    animation: educationRight;
+    animation-duration: 5s;
+  }
+  @keyframes educationRight{
+    from{
+      transform: translateX(200%);
+    }
+  }
+  .education-2,.education-3{
+    margin-top: 15%;
+  }
+  .education-1-data,.education-2-data,.education-3-data{
+    background-color: white;
+    font-size: 130%;
+    min-width: 50%;
+    max-width: 70%;
+    padding:4%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px;
+    overflow-wrap: break-word;
+  } 

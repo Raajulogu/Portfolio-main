@@ -1,0 +1,124 @@
+.skill{
+    padding: 10% 0%;
+  }
+  @media only screen and (max-width: 768px) {
+    .skill{
+      background-image: url("https://bowwe.com/upload/domain/12538/images/skill-bg.webp?2051059.5999999046");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 10% 0%;
+    }
+    .skill-box{
+      background: none;
+    }
+  }
+  .skill-box{
+    background-image: url("https://bowwe.com/upload/domain/12538/images/skill-bg.webp?2051059.5999999046");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5% 5% 0% 5%;
+  }
+  .skills{
+    margin:0px 0px 7% 0px;
+  }
+  .skill-head{
+    font-weight: bold;
+    color: white;
+  }
+  .skill-container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin:3% 10%;
+  }
+  .skill-title{
+    width:70%;
+    font-size: 175%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px 2%;
+  }
+  .skill-none{
+    width:70%;
+    height: 2vh;
+    background-color: rgb(201, 200, 200);
+    border-radius: 15px;
+    margin: 0px 2%;
+  }
+  .skill-1,.skill-2,.skill-3,.skill-4,.skill-5{
+    height: 2vh;
+    background-color: rgb(25, 93, 182);
+    border-radius: 15px;
+    
+  }
+   .skill-1{
+    width:75%;
+    animation:5s linear forwards skill-1
+  }
+  @keyframes skill-1{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 75%;
+    }
+  }
+  .skill-2{
+    width:70%;
+    animation-name: skill-2;
+    animation-duration: 5s;
+  }
+  @keyframes skill-2{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 70%;
+    }
+  }
+  .skill-3{
+    width:80%;
+    animation-name: skill-3;
+    animation-duration: 5s;
+  }
+  @keyframes skill-3{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 80%;
+    }
+  }
+  .skill-4{
+    width:85%;
+    animation-name: skill-4;
+    animation-duration: 5s;
+  }
+  @keyframes skill-4{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 85%;
+    }
+  }
+  .skill-5{
+    width:65%;
+    animation-name: skill-5;
+    animation-duration: 5s;
+  }
+  @keyframes skill-5{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 65%;
+    }
+  }

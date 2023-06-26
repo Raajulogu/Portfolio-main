@@ -1,0 +1,47 @@
+
+.contact{
+    background-image: url("https://bowwe.com/upload/domain/12538/images/experience-decor2.webp?13436766.799999952");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 100%;
+    height: 100%;
+    padding:4% 10px;
+  }
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 768px) {
+    .contact-box{
+      width: 100%;
+    }
+  }
+  .contact-box{
+    background-color: rgb(255, 246, 248);
+    box-shadow: 5px 5px 15px 5px ;
+    border-radius: 50px;
+    padding:2% 0px;
+    min-width: 40%;
+    max-width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: contact-box;
+    animation-duration: 3s;
+  }
+  @keyframes contact-box{
+    from{
+      transform: translateX(200%);
+    }
+    to{
+      transform: translate(0px);
+    }
+  }
+  form{
+    width:85%;
+  }
+  .contact-inputs{
+    margin: 15px 0px;
+  }
