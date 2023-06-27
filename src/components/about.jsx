@@ -14,14 +14,14 @@ const About = () => {
       <div className='col-md-8 about-content'>
           <h1>About me</h1>
           <p className='about-para'>
-              Full Stack Developer familiar with a
-            wide range of programming utilities and languages. 
-            Knowledgeable of backend and frontend development 
-            requirements. Handles any part of the process with
-            ease. Organized and dependable candidate
-            successful at managing multiple priorities with a
-            positive attitude. Willingness to take on added
-            responsibilities to meet team goals.
+            Full Stack Developer adept
+            in working in both front-end
+            and back-end development
+            processes. Skilled in
+            programming design,
+            development, and
+            implementation of
+            functional specification
           </p>
       </div>
     </div>
