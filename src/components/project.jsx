@@ -25,8 +25,7 @@ const Project = () => {
           You can send your email by manually entering your email address or 
           uploading a CSV file. You can also insert cc and bcc in your file. 
           In the CSV file, the column heading must <b>email</b> for <b>To</b>, 
-          <b> cc</b> for <b>cc</b>, <b>bcc</b> for <b>bcc</b>. You can send email delays 
-          by using Delay Option. The delay value should be in <b>seconds</b>.
+          <b> cc</b> for <b>cc</b>, <b>bcc</b> for <b>bcc</b>.
           </p>
       </div>
       </div>
