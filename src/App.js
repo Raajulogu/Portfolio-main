@@ -23,7 +23,7 @@ function App() {
             <AnchorLink href='#skills' className='anchor'>Skills</AnchorLink>
             </li>
             <li className='navs'>
-            <AnchorLink href='#education' className='anchor'>Contact</AnchorLink>
+            <AnchorLink href='#education' className='anchor'>Education</AnchorLink>
             </li>
             <li className='navs'>
             <AnchorLink href='#project' className='anchor'>Project</AnchorLink>

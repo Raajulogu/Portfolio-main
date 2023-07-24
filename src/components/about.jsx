@@ -14,14 +14,11 @@ const About = () => {
       <div className='col-md-8 about-content'>
           <h1>About me</h1>
           <p className='about-para'>
-            Full Stack Developer adept
-            in working in both front-end
-            and back-end development
-            processes. Skilled in
-            programming design,
-            development, and
-            implementation of
-            functional specification
+            A recent graduate with a Bachelor of Science degree in Statistics 
+            and a specialization in MERN stack development. Seeking a challenging 
+            and rewarding position as a Full-Stack Developer where I can use my 
+            skills and knowledge to create innovative and user-friendly web 
+            application
           </p>
       </div>
     </div>
