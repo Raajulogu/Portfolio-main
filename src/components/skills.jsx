@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import "./skill.css";
-
-const Skills = () => {
-=======
 import React, { useEffect } from 'react';
 import "./skill.css";
 
@@ -80,7 +74,6 @@ const Skills = () => {
   observer_5.observe(document.querySelector('.skill-5'));
   },[]);
 
->>>>>>> 45c4d5f (final _commit)
   return (
     <div className='row skill'>
         <div className='col skill-box'>

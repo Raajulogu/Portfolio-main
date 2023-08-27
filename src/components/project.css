@@ -2,15 +2,6 @@
     display: flex;
     flex-direction: column;
     padding: 4% 0%;
-<<<<<<< HEAD
-    /* background-image: url("https://img.freepik.com/free-photo/blue-toned-set-paper-sheets-with-copy-space_23-2148320447.jpg"); */
-    background-image: url('https://bowwe.com/upload/domain/12538/images/about-img-bg.webp?10104017.399999857');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.project-head{
-    margin-top: 2%;
-=======
     background-image: url('https://bowwe.com/upload/domain/12538/images/about-img-bg.webp?10104017.399999857');
     background-repeat: no-repeat;
     background-size: contain;
@@ -19,74 +10,15 @@
 .project-head{
     margin-top: 2%;
     margin-bottom: 5%;
->>>>>>> 45c4d5f (final _commit)
 }
 .project-body{
     display: flex;
     flex-direction: auto;
-<<<<<<< HEAD
-    justify-content: space-between;
-=======
     justify-content: center;
->>>>>>> 45c4d5f (final _commit)
     align-items: center;
     padding: 0 4%;
     height: auto;
 }
-<<<<<<< HEAD
-.project-image{
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    padding: 20px;
-    margin-top: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    animation: about_image;
-    animation-duration: 3s;
-  }
-  @keyframes about_image{
-    from{
-      transform: translateX(-500px);
-    }
-    to{
-      transform: translateX(0px);
-    }
-  }
-  #project-img{
-    min-width: 18vw;
-    max-width: 50%;
-    min-height:28vh;
-    max-height: 40vh;
-    box-shadow: 5px 5px 15px 5px ;
-    border-radius:90px ;
-  }
-  .project-content{
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10% 0;
-    animation: project_content;
-    animation-duration: 3s;
-  }
-  @keyframes project_content{
-    from{
-      transform: translateX(500px);
-    }
-    to{
-      transform: translateX(0px);
-    }
-  }
-  .project-para{
-    text-align: justify;
-    max-width: 70%;
-    font-size: 20px;
-    tab-size: 2;
-  }
-=======
 #project-img{
   width:70%;
   height:230px;
@@ -141,4 +73,3 @@
   cursor: pointer;
   color: black;
 }
->>>>>>> 45c4d5f (final _commit)

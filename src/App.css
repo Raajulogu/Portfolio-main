@@ -1,16 +1,7 @@
 .App{
   text-align: center;
   background-color: rgb(255, 246, 248);
-<<<<<<< HEAD
-}
-
-@media only screen and (max-width: 768px) {
-  .App{
-    padding-bottom: 70%;
-  }
-=======
   overflow: hidden;
->>>>>>> 45c4d5f (final _commit)
 }
 .App-header {
   background-color: #282c34;
@@ -26,8 +17,6 @@
   z-index: 1;
   position: fixed;
 }
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 768px) {
   .App{
     padding-bottom: 70%;
@@ -36,7 +25,6 @@
     min-height: 10vh;
   }
 }
->>>>>>> 45c4d5f (final _commit)
 ul{
   list-style-type: none;
 }
@@ -61,14 +49,11 @@ ul{
   padding:3vh 3vw;
   margin-top: 3%;
 }
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 812px) {
   .header-content{
     max-height:95vh;
   }
 }
->>>>>>> 45c4d5f (final _commit)
 .my-details{
   font-size: 30px auto;
   max-width: 100%;
@@ -88,8 +73,6 @@ ul{
   font-size: 23px;
   text-align: left;
 }
-<<<<<<< HEAD
-=======
 @media only screen and (min-width: 812px) {
   #job-descrep{
     font-size: 40px;
@@ -108,7 +91,6 @@ ul{
 .resume-btn:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
->>>>>>> 45c4d5f (final _commit)
 .main-content{
   display: flex;
   flex-direction: column;
@@ -121,8 +103,6 @@ ul{
 .anchor{
   color:white;
   text-decoration: none;
-<<<<<<< HEAD
-=======
 }
 
 ::-webkit-scrollbar {
@@ -144,5 +124,4 @@ ul{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(56, 20, 20); 
->>>>>>> 45c4d5f (final _commit)
 }

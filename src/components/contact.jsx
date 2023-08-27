@@ -1,10 +1,6 @@
-import { Button, TextField } from '@mui/material';
+import { Alert, Button, Snackbar, TextField } from '@mui/material';
 import { useFormik } from 'formik';
-<<<<<<< HEAD
-import React, { useRef } from 'react'
-=======
 import React, { useEffect, useRef } from 'react'
->>>>>>> 45c4d5f (final _commit)
 import * as yup from "yup";
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from 'emailjs-com';
@@ -19,7 +15,7 @@ const Contact = () => {
       console.log(form.current)
         emailjs.sendForm('service_5tm7opw', 'template_faklxvb', form.current, 'NL09kZCZYeYFmZSgt')
           .then((result) => {
-              console.log(result.text);  
+            handleClick()
           }, (error) => {
               console.log(error.text);
           });
@@ -40,8 +36,6 @@ const Contact = () => {
       validationSchema:contactValidationSchema,
     })
     
-<<<<<<< HEAD
-=======
     useEffect(()=>{
       //observer 1
     const observer = new IntersectionObserver(entries => {
@@ -57,7 +51,19 @@ const Contact = () => {
     
     observer.observe(document.querySelector('.contact-box'));
     },[]);
->>>>>>> 45c4d5f (final _commit)
+    const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
 
   return (
     <div className='row contact'>
@@ -116,7 +122,11 @@ const Contact = () => {
               Send
             </Button>
             </form>
-              
+            <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+              <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+                Mail Sent Successfully!
+              </Alert>
+            </Snackbar>
           </div>
       </div>
     </div>

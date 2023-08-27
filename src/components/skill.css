@@ -1,9 +1,6 @@
 .skill{
     padding: 10% 0%;
-<<<<<<< HEAD
-=======
     overflow: hidden;
->>>>>>> 45c4d5f (final _commit)
   }
   @media only screen and (max-width: 768px) {
     .skill{
@@ -64,13 +61,9 @@
   }
    .skill-1{
     width:75%;
-<<<<<<< HEAD
-    animation:5s linear forwards skill-1
-=======
   }
   .skill-1-animation{
     animation:3s linear forwards skill-1
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes skill-1{
     from{
@@ -82,14 +75,9 @@
   }
   .skill-2{
     width:70%;
-<<<<<<< HEAD
-    animation-name: skill-2;
-    animation-duration: 5s;
-=======
   }
   .skill-2-animation{
     animation:3s linear forwards skill-2
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes skill-2{
     from{
@@ -101,14 +89,9 @@
   }
   .skill-3{
     width:80%;
-<<<<<<< HEAD
-    animation-name: skill-3;
-    animation-duration: 5s;
-=======
   }
   .skill-3-animation{
     animation:3s linear forwards skill-3
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes skill-3{
     from{
@@ -120,14 +103,9 @@
   }
   .skill-4{
     width:85%;
-<<<<<<< HEAD
-    animation-name: skill-4;
-    animation-duration: 5s;
-=======
   }
   .skill-4-animation{
     animation:3s linear forwards skill-4
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes skill-4{
     from{
@@ -139,14 +117,9 @@
   }
   .skill-5{
     width:65%;
-<<<<<<< HEAD
-    animation-name: skill-5;
-    animation-duration: 5s;
-=======
   }
   .skill-5-animation{
     animation:3s linear forwards skill-5
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes skill-5{
     from{

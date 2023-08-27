@@ -3,10 +3,7 @@
     background-image: url("https://bowwe.com/upload/domain/12538/images/education-decor.webp?460693.59999990463");
     background-repeat: no-repeat;
     background-size: contain;
-<<<<<<< HEAD
-=======
     overflow: hidden;
->>>>>>> 45c4d5f (final _commit)
   }
   .education-datas{
     width: 100%;
@@ -36,31 +33,19 @@
     flex-direction: row;
     align-items: center;
     margin-bottom:0;
-<<<<<<< HEAD
-  }  .education-1,.education-3{
-    animation: educationLeft;
-    animation-duration: 5s;
-=======
-  }  
+  }
   .education-1-animation,.education-3-animation{
     animation: educationLeft;
     animation-duration: 3s;
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes educationLeft{
     from{
       transform: translateX(-200%);
     }
   }
-<<<<<<< HEAD
-  .education-2{
-    animation: educationRight;
-    animation-duration: 5s;
-=======
   .education-2-animation{
     animation: educationRight;
     animation-duration: 3s;
->>>>>>> 45c4d5f (final _commit)
   }
   @keyframes educationRight{
     from{
