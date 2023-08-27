@@ -1,7 +1,56 @@
+<<<<<<< HEAD
 import React from 'react';
 import "./Education.css";
 
 const Education = () => {
+=======
+import React, { useEffect } from 'react';
+import "./Education.css";
+
+const Education = () => {
+    useEffect(()=>{
+        //observer 1
+      const observer_1 = new IntersectionObserver(entries => {
+        // Loop over the entries
+        entries.forEach(entry => {
+          // If the element is visible
+          if (entry.isIntersecting) {
+            // Add the animation class
+            entry.target.classList.add('education-1-animation');
+          }
+        });
+      });
+      
+      observer_1.observe(document.querySelector('.education-1'));
+    
+      //observer 2
+      const observer_2 = new IntersectionObserver(entries => {
+        // Loop over the entries
+        entries.forEach(entry => {
+          // If the element is visible
+          if (entry.isIntersecting) {
+            // Add the animation class
+            entry.target.classList.add('education-2-animation');
+          }
+        });
+      });
+      
+      observer_2.observe(document.querySelector('.education-2'));
+      //observer 1
+      const observer_3 = new IntersectionObserver(entries => {
+        // Loop over the entries
+        entries.forEach(entry => {
+          // If the element is visible
+          if (entry.isIntersecting) {
+            // Add the animation class
+            entry.target.classList.add('education-3-animation');
+          }
+        });
+      });
+      
+      observer_3.observe(document.querySelector('.education-3'));
+      },[]);
+>>>>>>> 45c4d5f (final _commit)
   return (
     <div className='row education'>
         <div className='col education-box'>
@@ -73,6 +122,7 @@ const Education = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Education
 
 
@@ -136,3 +186,6 @@ export default Education
             </div>
             </div>
 */ 
+=======
+export default Education
+>>>>>>> 45c4d5f (final _commit)

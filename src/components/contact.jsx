@@ -1,6 +1,10 @@
 import { Button, TextField } from '@mui/material';
 import { useFormik } from 'formik';
+<<<<<<< HEAD
 import React, { useRef } from 'react'
+=======
+import React, { useEffect, useRef } from 'react'
+>>>>>>> 45c4d5f (final _commit)
 import * as yup from "yup";
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from 'emailjs-com';
@@ -36,6 +40,24 @@ const Contact = () => {
       validationSchema:contactValidationSchema,
     })
     
+<<<<<<< HEAD
+=======
+    useEffect(()=>{
+      //observer 1
+    const observer = new IntersectionObserver(entries => {
+      // Loop over the entries
+      entries.forEach(entry => {
+        // If the element is visible
+        if (entry.isIntersecting) {
+          // Add the animation class
+          entry.target.classList.add('contact-box-animation');
+        }
+      });
+    });
+    
+    observer.observe(document.querySelector('.contact-box'));
+    },[]);
+>>>>>>> 45c4d5f (final _commit)
 
   return (
     <div className='row contact'>

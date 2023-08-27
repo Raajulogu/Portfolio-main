@@ -8,6 +8,10 @@ import Contact from './components/contact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Education from './components/Education';
 import GitHubIcon from '@mui/icons-material/GitHub';
+<<<<<<< HEAD
+=======
+import { Button } from '@mui/material';
+>>>>>>> 45c4d5f (final _commit)
 
 function App() {
   return (
@@ -38,12 +42,25 @@ function App() {
      <div className='row'>
      <div className='col header-content'>
         <div className='col-md-5 my-details'>
+<<<<<<< HEAD
           <h1>Rajesh Kumar</h1>
           <p id="job-descrep">Looking for oppurtunites as <b>MERN Stack Developer</b></p>
+=======
+          <h1 className='my-name'>Rajesh Kumar</h1>
+          <p id="job-descrep"><b>Full Stack Developer (MERN)</b></p>
+>>>>>>> 45c4d5f (final _commit)
           <div className='header-contact'>
           <p id="contact-details"><MailIcon/> rajeshkumarlogu145@gmail.com</p>
           <p id="contact-details"><GitHubIcon/> https://github.com/Raajulogu</p>
           <p id="contact-details"><PhoneIphoneIcon/> +91 7092511841</p>
+<<<<<<< HEAD
+=======
+          <br/>
+          <a href='https://drive.google.com/file/d/1fdX2pZ-HnrvnROtyH1ZVK65D5mFBpDtS/view' 
+            target="_blank" rel="noreferrer">
+            <Button variant="contained">Resume</Button>
+          </a>
+>>>>>>> 45c4d5f (final _commit)
           </div>
         </div>
       </div>

@@ -28,6 +28,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+  }
+  .contact-box-animation{
+>>>>>>> 45c4d5f (final _commit)
     animation: contact-box;
     animation-duration: 3s;
   }

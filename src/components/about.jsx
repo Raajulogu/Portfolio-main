@@ -1,7 +1,45 @@
+<<<<<<< HEAD
 import React from 'react';
 import "./about.css";
 
 const About = () => {
+=======
+import React, { useEffect } from 'react';
+import "./about.css";
+
+const About = () => {
+  useEffect(()=>{
+    //observer 1
+  const observer_1 = new IntersectionObserver(entries => {
+    // Loop over the entries
+    entries.forEach(entry => {
+      // If the element is visible
+      if (entry.isIntersecting) {
+        // Add the animation class
+        entry.target.classList.add('about-image-animation');
+      }
+    });
+  });
+  
+  observer_1.observe(document.querySelector('.about-image'));
+
+  //observer 2
+  const observer_2 = new IntersectionObserver(entries => {
+    // Loop over the entries
+    entries.forEach(entry => {
+      // If the element is visible
+      if (entry.isIntersecting) {
+        // Add the animation class
+        entry.target.classList.add('about-content-animation');
+      }
+    });
+  });
+  
+  observer_2.observe(document.querySelector('.about-content'));
+
+  },[]);
+
+>>>>>>> 45c4d5f (final _commit)
   return (
     <div className='row'>
         <div className='row about'>
