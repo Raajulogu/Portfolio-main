@@ -8,7 +8,7 @@ import Contact from './components/contact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Education from './components/Education';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Button } from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function App() {
   return (
@@ -39,17 +39,34 @@ function App() {
      <div className='row'>
      <div className='col header-content'>
         <div className='col-md-5 my-details'>
-          <h1 className='my-name'>Rajesh Kumar</h1>
-          <p id="job-descrep"><b>Full Stack Developer (MERN)</b></p>
+          <h1 className='my-name'>Rajesh Kumar.R</h1>
+          <p id="job-descrep"><b>Full Stack Developer</b></p>
           <div className='header-contact'>
           <p id="contact-details"><MailIcon/> rajeshkumarlogu145@gmail.com</p>
-          <p id="contact-details"><GitHubIcon/> https://github.com/Raajulogu</p>
           <p id="contact-details"><PhoneIphoneIcon/> +91 7092511841</p>
-          <br/>
-          <a href='https://drive.google.com/file/d/1fdX2pZ-HnrvnROtyH1ZVK65D5mFBpDtS/view' 
-            target="_blank" rel="noreferrer">
-            <Button variant="contained">Resume</Button>
+          <p id="contact-details">
+          <a href='https://github.com/Raajulogu' 
+            target='_blank' rel='noreferrer' className='git-btn'>
+            <GitHubIcon fontSize='large'/>
           </a>
+          <a href='https://www.linkedin.com/in/r-rajeshkumar/' 
+            target='_blank' rel='noreferrer' className='linked-btn'>
+            <LinkedInIcon fontSize='large'/>
+          </a>
+          </p>
+          
+          <br/>
+          <p id="contact-details">
+            <a href='https://drive.google.com/file/d/1fdX2pZ-HnrvnROtyH1ZVK65D5mFBpDtS/view' 
+              target="_blank" rel="noreferrer"
+              className='resume-container'>
+              <button 
+              className='resume-button'>
+                Resume
+              </button>
+            </a>
+          </p>
+          
           </div>
         </div>
       </div>

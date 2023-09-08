@@ -27,7 +27,7 @@
   padding:.5%;
   box-shadow: 5px 5px 25px 5px ;
   transition: .3s ;
-  height:550px;
+  height:580px;
   margin:2vh 2vw;
 }
 
@@ -66,10 +66,18 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+.proj-git-btn{
+  display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .project-icons{
-  margin:0 15%;
+  margin:0% 20%;
   cursor: pointer;
   color: black;
+}
+.project-icons:hover{
+  text-decoration: none;
 }

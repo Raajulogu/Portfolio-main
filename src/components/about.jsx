@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import "./about.css";
+import Raj from '../Images/Rajesh.jpg';
 
 const About = () => {
   useEffect(()=>{
@@ -37,7 +38,7 @@ const About = () => {
         <div className='row about'>
       <div className='col-md-4 about-image-container'>
         <div className='about-image'>
-        <img id='about-img' src="https://bowwe.com/upload/domain/27639/images/Section_two_photo.webp?75075.29999995232"
+        <img id='about-img' src={Raj}
         alt="img" />
         </div>
       </div>

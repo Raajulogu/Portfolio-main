@@ -5,6 +5,9 @@ import * as yup from "yup";
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from 'emailjs-com';
 import "./contact.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 const Contact = () => {
@@ -69,7 +72,22 @@ const Contact = () => {
     <div className='row contact'>
       <div className='col contact-container'>
           <div className='contact-box'>
-          <h2>Contact</h2>
+            <h2>Contact</h2>
+            <br/>
+            <div className='contact-btns'>
+              <a href="mailto:rajeshkumarlogu145@gmail.com" 
+                target='_blank' rel='noreferrer' className='linked-btn'>
+                <EmailIcon fontSize='large'/>
+              </a>
+              <a href='https://github.com/Raajulogu' 
+              target='_blank' rel='noreferrer' className='git-btn'>
+              <GitHubIcon fontSize='large'/>
+              </a>
+              <a href='https://www.linkedin.com/in/r-rajeshkumar/' 
+                target='_blank' rel='noreferrer' className='linked-btn'>
+                <LinkedInIcon fontSize='large'/>
+              </a>
+            </div>
             <form ref={form} onSubmit={sendMessage}>
             <div className='contact-inputs'>
             <TextField
@@ -118,10 +136,12 @@ const Contact = () => {
             variant="contained"
             endIcon={<SendIcon />}
             type="submit"
+            id='send-btn'
             >
               Send
             </Button>
             </form>
+            <br/>
             <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
               <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
                 Mail Sent Successfully!

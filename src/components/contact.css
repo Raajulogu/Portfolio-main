@@ -47,3 +47,8 @@
   .contact-inputs{
     margin: 15px 0px;
   }
+  .contact-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

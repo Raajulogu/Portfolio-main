@@ -88,10 +88,19 @@ const Project = () => {
             </CardContent>
           </CardActionArea>
           <CardActions className='card-actions'>
-            <a href='https://github.com/Raajulogu/Your_Mailer_Fullstack' 
-            target="_blank" className='project-icons' rel="noreferrer">
-              <GitHubIcon/>
-            </a>
+            <div className='proj-git-btn'>
+              <a href='https://github.com/Raajulogu/Your_Mailer_Frontend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Frontend</p>
+              </a>
+              <a href='https://github.com/Raajulogu/Your_Mailer_Backend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Backend</p>
+              </a>
+              
+            </div>
             <a href='https://stately-zuccutto-ff4067.netlify.app/' 
             target="_blank" className='project-icons' rel="noreferrer">
             <LanguageIcon/>
@@ -115,14 +124,23 @@ const Project = () => {
             </CardContent>
           </CardActionArea>
           <CardActions className='card-actions'>
-          <a href='https://github.com/Raajulogu/Stack_Overflow_Fullstack' 
-            target="_blank" className='project-icons' rel="noreferrer">
-              <GitHubIcon/>
-            </a>
-            <a href='https://meek-cucurucho-834c54.netlify.app/' 
-            target="_blank" className='project-icons' rel="noreferrer">
-            <LanguageIcon/>
-            </a>
+            <div className='proj-git-btn'>
+                <a href='https://github.com/Raajulogu/Stack_Overflow_Frontend' 
+                target="_blank" className='project-icons' rel="noreferrer">
+                  <GitHubIcon/>
+                  <p>Frontend</p>
+                </a>
+                <a href='https://github.com/Raajulogu/stack_overflow-clone' 
+                target="_blank" className='project-icons' rel="noreferrer">
+                  <GitHubIcon/>
+                  <p>Backend</p>
+                </a>
+                
+              </div>
+              <a href='https://meek-cucurucho-834c54.netlify.app/' 
+              target="_blank" className='project-icons' rel="noreferrer">
+              <LanguageIcon/>
+              </a>
           </CardActions>
         </Card>
         <Card sx={{ maxWidth: 345 }} className='card-3'>
@@ -141,10 +159,19 @@ const Project = () => {
             </CardContent>
           </CardActionArea>
           <CardActions className='card-actions'>
-          <a href='https://github.com/Raajulogu/Student_Teacher_Fullstack' 
-            target="_blank" className='project-icons' rel="noreferrer">
-              <GitHubIcon/>
-            </a>
+            <div className='proj-git-btn'>
+              <a href='https://github.com/Raajulogu/Student_Teacher_frontend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Frontend</p>
+              </a>
+              <a href='https://github.com/Raajulogu/Student_Teacher_backend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Backend</p>
+              </a>
+              
+            </div>
             <a href='https://verdant-gumdrop-f51934.netlify.app/' 
             target="_blank" className='project-icons' rel="noreferrer">
             <LanguageIcon/>
@@ -167,10 +194,19 @@ const Project = () => {
             </CardContent>
           </CardActionArea>
           <CardActions className='card-actions'>
-          <a href='https://github.com/Raajulogu/Dine_In_Fullstack' 
-            target="_blank" className='project-icons' rel="noreferrer">
-              <GitHubIcon/>
-            </a>
+            <div className='proj-git-btn'>
+              <a href='https://github.com/Raajulogu/DineIn_Frontend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Frontend</p>
+              </a>
+              <a href='https://github.com/Raajulogu/DineIn_Backend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Backend</p>
+              </a>
+              
+            </div>
             <a href='https://boisterous-lollipop-123e69.netlify.app/' 
             target="_blank" className='project-icons' rel="noreferrer">
             <LanguageIcon/>
