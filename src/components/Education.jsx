@@ -54,12 +54,12 @@ const Education = () => {
                 <div className='education-1-container'>
                 <div className='education-1'>
                     <div className='education-1-data'>
-                        <h1>HSC</h1>
-                        <p>Indira Ghandhi Government Higher
-                            Secondary School
+                        <h1>SSLC</h1>
+                        <p>Thillaiyadi Valliyammai Government
+                          High School
                         </p>
                         <span className='education-1-year'>
-                        2017-2019
+                        2016-2017
                     </span>
                     </div>
                     <span style={{color:"blue",height:"35px",overflow:"hidden", marginLeft:"5%"}}>------------</span>
@@ -80,12 +80,12 @@ const Education = () => {
             <span style={{color:"blue",height:"35px",overflow:"hidden", marginRight:"5%"}}>------------</span>
                    
                     <div className='education-2-data'>
-                        <h1>Bsc.Statistics</h1>
-                        <p>Indira Ghandhi College of 
-                            Arts and Science
+                        <h1>HSC</h1>
+                        <p>Indira Ghandhi Government Higher
+                            Secondary School
                         </p>
                         <span className='education-1-year'>
-                        2019-2022
+                        2017-2019
                     </span>
                     </div>
                     
@@ -94,11 +94,12 @@ const Education = () => {
                 <div className='education-3-container'>
                 <div className='education-3'>
                     <div className='education-3-data'>
-                        <h1>MERN Stack Development</h1>
-                        <p>GUVI GEEK NETWORK PRIVATE LIMITED
+                        <h1>Bsc.Statistics</h1>
+                        <p>Indira Ghandhi College of 
+                            Arts and Science
                         </p>
                         <span className='education-3-year'>
-                        2023
+                        2019-2022
                     </span>
                     </div>
                     <span style={{color:"blue",height:"35px",overflow:"hidden", marginLeft:"5%"}}>------------</span>
