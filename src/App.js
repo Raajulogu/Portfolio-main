@@ -40,7 +40,7 @@ function App() {
      <div className='col header-content'>
         <div className='col-md-5 my-details'>
           <h1 className='my-name'>Rajesh Kumar.R</h1>
-          <p id="job-descrep"><b>Full Stack Developer</b></p>
+          <p><p id="job-descrep"><b>Full Stack Developer</b></p> </p>
           <div className='header-contact'>
           <p id="contact-details"><MailIcon/> rajeshkumarlogu145@gmail.com</p>
           <p id="contact-details"><PhoneIphoneIcon/> +91 7092511841</p>
