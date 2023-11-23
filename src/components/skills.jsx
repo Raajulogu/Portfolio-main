@@ -83,7 +83,7 @@ const Skills = () => {
               <div className="skill-container">
               <div className='skill-title'>
                 <div>ReactJs</div>
-                <div>75%</div>
+                <div>85%</div>
               </div>
                 <div className='skill-none'>
                 <div className='skill-1'></div>
@@ -93,7 +93,7 @@ const Skills = () => {
                 <div className="skill-container">
               <div className='skill-title'>
                 <div>NodeJs</div>
-                <div>70%</div>
+                <div>80%</div>
               </div>
                 <div className='skill-none'>
                 <div className='skill-2'></div>
@@ -103,7 +103,7 @@ const Skills = () => {
                 <div className="skill-container">
               <div className='skill-title'>
                 <div>HTML/CSS</div>
-                <div>80%</div>
+                <div>85%</div>
               </div>
                 <div className='skill-none'>
                 <div className='skill-3'></div>
@@ -113,7 +113,7 @@ const Skills = () => {
                 <div className="skill-container">
               <div className='skill-title'>
                 <div>JavaScript</div>
-                <div>85%</div>
+                <div>90%</div>
               </div>
                 <div className='skill-none'>
                 <div className='skill-4'></div>
@@ -123,7 +123,7 @@ const Skills = () => {
                 <div className="skill-container">
               <div className='skill-title'>
                 <div>Python</div>
-                <div>65%</div>
+                <div>70%</div>
               </div>
                 <div className='skill-none'>
                 <div className='skill-5'></div>

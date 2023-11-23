@@ -60,7 +60,7 @@
     
   }
    .skill-1{
-    width:75%;
+    width:85%;
   }
   .skill-1-animation{
     animation:3s linear forwards skill-1
@@ -70,11 +70,11 @@
       width: 0%;
     }
     to{
-      width: 75%;
+      width: 85%;
     }
   }
   .skill-2{
-    width:70%;
+    width:80%;
   }
   .skill-2-animation{
     animation:3s linear forwards skill-2
@@ -84,11 +84,11 @@
       width: 0%;
     }
     to{
-      width: 70%;
+      width: 80%;
     }
   }
   .skill-3{
-    width:80%;
+    width:85%;
   }
   .skill-3-animation{
     animation:3s linear forwards skill-3
@@ -98,11 +98,11 @@
       width: 0%;
     }
     to{
-      width: 80%;
+      width: 85%;
     }
   }
   .skill-4{
-    width:85%;
+    width:90%;
   }
   .skill-4-animation{
     animation:3s linear forwards skill-4
@@ -112,11 +112,11 @@
       width: 0%;
     }
     to{
-      width: 85%;
+      width: 90%;
     }
   }
   .skill-5{
-    width:65%;
+    width:70%;
   }
   .skill-5-animation{
     animation:3s linear forwards skill-5
@@ -126,6 +126,6 @@
       width: 0%;
     }
     to{
-      width: 65%;
+      width: 70%;
     }
   }
