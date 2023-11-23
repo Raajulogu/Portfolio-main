@@ -23,7 +23,7 @@
   width:70%;
   height:230px;
 }
-.card-1,.card-2,.card-3,.card-4{
+.card-1,.card-2,.card-3,.card-4,.card-5{
   padding:.5%;
   box-shadow: 5px 5px 25px 5px ;
   transition: .3s ;
@@ -31,7 +31,7 @@
   margin:2vh 2vw;
 }
 
-.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover,.card-5:hover{
   transform: scale(0.95)
 }
 .card-1-animation{

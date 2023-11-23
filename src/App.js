@@ -57,14 +57,16 @@ function App() {
           
           <br/>
           <p id="contact-details">
+          <button 
+              className='resume-button'>
             <a href='https://drive.google.com/file/d/1fdX2pZ-HnrvnROtyH1ZVK65D5mFBpDtS/view' 
               target="_blank" rel="noreferrer"
               className='resume-container'>
-              <button 
-              className='resume-button'>
+              
                 Resume
-              </button>
+              
             </a>
+            </button>
           </p>
           
           </div>
