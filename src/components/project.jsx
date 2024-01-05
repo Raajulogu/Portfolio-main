@@ -61,7 +61,7 @@ const Project = () => {
   
   observer_4.observe(document.querySelector('.card-4'));
 
-   //observer 4
+   //observer 5
    const observer_5 = new IntersectionObserver(entries => {
     // Loop over the entries
     entries.forEach(entry => {
@@ -74,6 +74,20 @@ const Project = () => {
   });
   
   observer_5.observe(document.querySelector('.card-5'));
+
+  //observer 6
+  const observer_6 = new IntersectionObserver(entries => {
+    // Loop over the entries
+    entries.forEach(entry => {
+      // If the element is visible
+      if (entry.isIntersecting) {
+        // Add the animation class
+        entry.target.classList.add('card-2-animation');
+      }
+    });
+  });
+  
+  observer_6.observe(document.querySelector('.card-6'));
 
   },[]);
 
@@ -263,6 +277,45 @@ const Project = () => {
               
             </div>
             <a href='https://recipe-keeper-by-rk.netlify.app/' 
+            target="_blank" className='project-icons' rel="noreferrer">
+            <LanguageIcon/>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 345 }} className='card-6'>
+          <CardActionArea>
+            <img id='project-img' src="https://www.softsuave.com/blog/wp-content/uploads/2021/03/Matrimony-mobile-app-screens.png"
+        alt="img" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+              <b>Mangalyam Matrimony</b>
+              </Typography>
+              <Typography variant="body2" className='card-content'>
+              &emsp;&emsp;Discover love with Mangalyam Matrimony, where personalized 
+              profiles and effortless connection requests bring hearts together. Our 
+              streamlined platform prioritizes privacy, letting users curate meaningful 
+              connections and delete accounts post-marriage. Join us for a journey where 
+              your perfect match is just a click away. Mangalyam Matrimony - crafting lasting 
+              connections for a lifetime of happiness.  
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions className='card-actions'>
+            <div className='proj-git-btn'>
+              <a href='https://github.com/Raajulogu/mangalyam_frontend_app' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Frontend</p>
+              </a>
+              <a href='https://github.com/Raajulogu/Matrimony_Backend' 
+              target="_blank" className='project-icons' rel="noreferrer">
+                <GitHubIcon/>
+                <p>Backend</p>
+              </a>
+              
+            </div>
+            <a href='https://mangalyam-matrimony-rk.netlify.app/' 
             target="_blank" className='project-icons' rel="noreferrer">
             <LanguageIcon/>
             </a>
