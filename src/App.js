@@ -9,6 +9,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Education from './components/Education';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// eslint-disable-next-line no-unused-vars
 import { Client as ConversationsClient } from '@twilio/conversations';
 
 function App() {
